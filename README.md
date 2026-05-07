@@ -26,9 +26,13 @@ and consistently.
 ## Requirements
 
 Java
+
 Spring Boot
+
 Node.js
+
 npm
+
 React
 
 ## Backend Setup
@@ -38,6 +42,7 @@ cd backend
 *Add openrouter API key* in application.properties
 
 mvn clean install
+
 mvn spring-boot:run
 
 Open http://localhost:8080
@@ -45,6 +50,9 @@ Open http://localhost:8080
 ## Frontend Setup
 
 cd frontend
+
 npm install
+
 npm run dev
+
 Open http://localhost:5173
