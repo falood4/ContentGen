@@ -1,4 +1,4 @@
-#Autonomous Content Factory
+# Autonomous Content Factory
 
 Every product launch requires Marketing to rewrite the same content for
 blog, LinkedIn, and newsletter separately. Repetitive rewriting causes
