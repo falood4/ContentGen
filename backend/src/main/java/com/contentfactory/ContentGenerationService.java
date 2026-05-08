@@ -20,7 +20,7 @@ public class ContentGenerationService {
             String FactSheetJson = JsonConvert(FactSheetString);
 
             // Copywrite agent
-            String CopywritePrompt = "You are the Creative Copywriter Agent. Based on the Fact-Sheet JSON, produce: 1) A 500-word Blog Post with porfessional/business tone 2) An 5-post Twitter Thread. Use (x/5) to show how thread is divided 3) A one paaragraph Email Teaser. Output MUST be a strict JSON object. DO NOT ADD PADDED TEXT OTHER THAN JSON. {\"blog\": \"...\", \"social\": \"...\", \"email\": \"...\"}";
+            String CopywritePrompt = "You are the Creative Copywriter Agent. Based on the Fact-Sheet JSON, produce: 1) A 500-word Blog Post with professional/business tone 2) An 5-post Twitter Thread. Use (x/5) to show how thread is divided 3) A one paragraph Email Teaser. Output MUST be a strict JSON object. DO NOT ADD PADDED TEXT OTHER THAN JSON. {\"blog\": \"...\", \"social\": \"...\", \"email\": \"...\"}";
             String CopywriteString = openRouterClient.generate(CopywritePrompt,
                     "Fact-Sheet:\n" + FactSheetJson);
             String CopywriterJson = JsonConvert(CopywriteString);
