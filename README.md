@@ -39,7 +39,7 @@ React
 
 cd backend
 
-*Add openrouter API key* in application.properties
+*Add openrouter API key* in .env
 
 mvn clean install
 
